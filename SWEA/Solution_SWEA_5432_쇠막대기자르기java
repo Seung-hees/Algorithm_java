@@ -3,7 +3,7 @@ package workshop;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Solution_SWEA_5432_쇠막대기자르기_이승희 {
+public class Solution_SWEA_5432_쇠막대기자르기 {
 	public static void main(String[] args) {
 	
 		Scanner sc = new Scanner(System.in);
