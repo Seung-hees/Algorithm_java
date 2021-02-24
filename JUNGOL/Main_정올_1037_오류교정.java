@@ -5,8 +5,6 @@ public class Main_정올_1037_오류교정 {
 		
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
-		boolean check = true;
-		
 		
 		int[][] arr = new int[N][N];
 		int sum = 0;
