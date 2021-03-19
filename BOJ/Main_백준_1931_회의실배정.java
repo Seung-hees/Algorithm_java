@@ -8,7 +8,6 @@ import java.util.Comparator;
 import java.util.StringTokenizer;
 
 
-// 최상 온도 순으로 정렬 후, 뒤의 최하의 온도가 앞의 최상 온도 보다 크면 냉장고 수 증가.
 public class Main_백준_1931_회의실배정 {
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
