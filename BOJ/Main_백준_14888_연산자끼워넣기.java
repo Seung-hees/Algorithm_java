@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
-
+// dfs 로도 풀어볼것
 public class Main_백준_14888_연산자끼워넣기 {
 
 	private static int[] number, op, chosen, result;
