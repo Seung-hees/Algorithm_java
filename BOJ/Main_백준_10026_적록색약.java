@@ -26,6 +26,7 @@ public class Main_백준_10026_적록색약 {
 
 	}
 
+	
 	public static void main(String[] args) throws NumberFormatException, IOException {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
