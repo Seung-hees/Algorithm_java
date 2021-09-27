@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
+
 public class Main_백준_14889_스타트와링크 {
 
 	private static int[] A, B;
