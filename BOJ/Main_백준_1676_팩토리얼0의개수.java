@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Main_백준_1676_팩토리얼0의개수 {
 	public static void main(String[] args) {
 
