@@ -75,5 +75,4 @@ public class Solution_SWEA_1251_하나로 {
 		System.out.println(sb);
 
 	}// end of main
-
 }// end of class
