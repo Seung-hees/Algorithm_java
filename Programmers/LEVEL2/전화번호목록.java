@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Solution {
+
     public boolean solution(String[] phone_book) {
         // 접두어인 경우가 있으면 false, 그렇지 않으면 true
         
