@@ -29,7 +29,7 @@ public class Main_백준_1003_피보나치함수 {
 
 			int x = 0;
 			int y = 1;
-			int z = 0;// 1일 떄 : 초기화
+			int z = 0;// 1일  : 초기화
 
 			for (int i = 2; i <= N; i++) {
 				c = a + b;
