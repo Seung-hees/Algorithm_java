@@ -7,6 +7,7 @@ import java.util.StringTokenizer;
 
 public class Main_백준_1002_터렛 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
+		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int TC = Integer.parseInt(br.readLine());
 
