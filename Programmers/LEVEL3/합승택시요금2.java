@@ -4,7 +4,6 @@ import java.io.*;
 
 class Solution {
     // s-> 합승 + 합승->a + 합승-> b 가 최소인 값
-    
     static class Edge implements Comparable<Edge>{
         int index;
         int cost;
