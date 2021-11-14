@@ -27,7 +27,6 @@ class Solution {
 			}
 			System.out.println("#" + tc + " " + sum);
 		}
-
 		sc.close();
 
 	}
