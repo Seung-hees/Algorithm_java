@@ -22,6 +22,6 @@ class Solution {
             }
             permu(idx + 1, str, word);
         }
-        
+       
     }
 }
