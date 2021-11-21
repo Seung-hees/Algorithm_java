@@ -6,7 +6,6 @@ import java.util.Stack;
 
 public class Solution_SWEA_1223_계산기2 {
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 
 		ArrayList<Character> arr = new ArrayList<Character>();
