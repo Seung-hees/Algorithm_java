@@ -1,0 +1,47 @@
+-- 나의 풀이 > 비효율의 끝
+-- 문자열 관련 함수를 다 까먹었다.ㅠㅠ 
+
+import java.util.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        String lower = "abcdefghijklmnopqrstuvwxyz"; 
+        String ans = "";
+        for(int i = 0; i<a.length();i++){
+            String alpha = String.valueOf(a.charAt(i));
+            if(upper.contains(alpha)){
+                ans+=alpha.toLowerCase();
+            }else{
+                ans+=alpha.toUpperCase();
+            }    
+        }
+         System.out.println(ans);
+    }
+}
+
+-- 참고하기 좋은 풀이 
+
+import java.util.Scanner;
+import java.lang.*;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+
+        StringBuilder sb = new StringBuilder();
+        char[] chars = a.toCharArray();
+        for (int i=0; i<chars.length; i++) {
+            char c = chars[i];
+            if (Character.isLowerCase(c)) {
+                sb.append(Character.toUpperCase(c));
+            } else {
+                sb.append(Character.toLowerCase(c));
+            }
+        }
+        System.out.println(sb.toString());
+    }
+}
